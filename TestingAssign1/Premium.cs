@@ -8,9 +8,9 @@ namespace TestingAssign1
 {
     public class Premium
     {
-        public float CalcPremium(int age, string gender)
+        public double CalcPremium(int age, string gender)
         {
-            float premium;
+            double premium;
 
             if (gender == "female")
                 if ((age >= 18) && (age <= 30))
