@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+   <description>projectTesting</description>
+   <name>SoftwareTestingKat</name>
+   <tag></tag>
+   <UUID>6ead717f-8c97-40d1-98ce-65bfc56af691</UUID>
+   <pageLoadTimeout>30</pageLoadTimeout>
+</Project>
