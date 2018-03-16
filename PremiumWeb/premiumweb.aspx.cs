@@ -21,9 +21,9 @@ namespace PremiumWeb
             int age = int.Parse(TextboxAge.Text);
             string gender = TextboxGender.Text;
 
-            Gender.Text += gender;
-            Age.Text += age.ToString();
-            Premium.Text += "$" + c1.CalcPremium(age, gender).ToString();
+            Gender.Text = "Gender: " + gender;
+            Age.Text = "Age: " + age.ToString();
+            Premium.Text = "Premium: $" + c1.CalcPremium(age, gender).ToString();
         }
     }
 }

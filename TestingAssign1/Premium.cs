@@ -3,11 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using fit;
 
 namespace TestingAssign1
 {
-    public class Premium
+    public class Premium : ColumnFixture
     {
+        public int age;
+        public string gender;
+
         public double CalcPremium(int age, string gender)
         {
             double premium;
@@ -21,7 +25,7 @@ namespace TestingAssign1
                 else
                     premium = 0.0;
             else
-    if (gender == "male")
+            if (gender == "male")
                 if ((age >= 18) && (age <= 35))
                     premium = 6.0;
                 else
@@ -35,6 +39,6 @@ namespace TestingAssign1
             if (age >= 50)
                 premium = premium * 0.15;
             return premium;
-        }
+        }        
     }
 }
